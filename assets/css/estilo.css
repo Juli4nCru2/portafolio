@@ -10,13 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 #inicio {
-    background: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,.7 )), url("./Images/img/fondo-inicio.jpg");
-    background-size: cover;
-    background-position: center center;
+    background: linear-gradient(rgba(34, 15, 15, 0.7), rgba(112, 31, 31, 0.7)), url("images/fondo-inicio ");
+    background-size:cover;
+    background-position:center center;
     height: 100vh;
 }
 #inicio .contenido header {
-    background-color: rgba(0,0,0.8);
+    background-color: rgb(2, 2, 20);
     position: fixed;
     width: 100px;
     z-index: 100;
@@ -32,7 +32,7 @@ html {
 }
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: blueviolet;
+    color: rgb(87, 3, 66);
 }
 #inicio .contenido header .contenido-header nav ul {
     list-style: none;
@@ -42,7 +42,7 @@ html {
 
 #inicio .contenido header .contenido-header nav ul li a {
     text-decoration: none;
-    color:#fff;
+    color:rgb(243, 242, 237);
     margin: 0 12px;
     font-weight: 400;
     transition: 0.5s;
@@ -54,7 +54,7 @@ html {
     max-width: 1100px;
     height: 100vh;
     margin: auto;
-    color: #fff;
+    color: rgb(15, 15, 15);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,17 +72,121 @@ html {
     margin-bottom: 25px;
     text-align: center;
 }
+#inicio .contenido .presentacion h2 span {
+    font-size: 25px;
+    color: #ff5080;
+}
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion a:hover {
+    background-color: #ff5080;
+}
+
+#icono-nav {
+    color: #fff;
+    display: none;
+}
+#sobremi {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#sobremi .contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#sobremi .contenedor-foto img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+#sobremi .sobremi {
+    margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#sobremi .sobremi h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi h2 span {
+    color: #ff5080;
+}
+
+#sobremi .sobremi h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobremi .sobremi p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+
+#sobremi .sobremi a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: .5s;
+}
+
 #sobremi .sobremi a:hover {
     background-color: #ff5080;
     color: #fff;
 }
+
 .contenedor-skills {
-    background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("images/img/imagen\ en\ blanco.png");
+    background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("images/img/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
-    background-position: center center;
+    color: rgb(57, 3, 82);
+    background-position: center;
     padding: 100px 0;
     text-align: center;
 }
@@ -113,22 +217,134 @@ html {
 }
 
 .contenedor-skills .skill .barra .barra-progreso1 {
-    background-color: #fff;
+    background-color: rgb(216, 202, 202);
     width: 90%;
     height: 6px;
     animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2 {
-    background-color: #fff;
+    background-color: rgb(223, 218, 218);
     width: 90%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso3 {
-    background-color: #fff;
+    background-color: rgb(185, 175, 175);
     width: 90%;
     height: 6px;
     animation: progreso3 2s forwards;
 }
+.footer__section {
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+    color: var(--violet);
+    font-weight: 600;
+}
+.fifth__section h3 {
+    font-size: 30px;
+    padding: 10px 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: var(--dark_grey);
+    text-align: center;
+}
+.contact__section {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+.contact__section__elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display__contact__elements {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--cream);
+}
+.display__contact__elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.display__contact__elements i {
+    color: var(--violet);
+    font-size: 40px;
+}
+.bg_dark {
+    font-weight: 600;
+    color: var(--dark_grey);
+    margin-bottom: 5px;
+}
+.bg__light {
+    font-weight: 400;
+    color: var(--light_grey);
+    font-size: 14px;
+}
+.second__section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.second__section .second__section__image img {
+    width: 300px;
+}
+@media screen and (max-width: 800px) {
+    .redes {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    nav.responsive {
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav.responsive ul {
+        display: block !important;
+        text-align: center;
+    }
+    nav.responsive ul li {
+        margin: 5px 0;
+    }
+    #icono-nav {
+        display: block;
+    }
+    #inicio .contenido .presentacion h2 {
+        font-size: 40px;
+    }
+    /* seccion SOBRE MI */
+    #sobremi {
+        padding: 50px 0;
+        display: block;
+    }
+    #sobremi .contenedor-foto {
+        max-width: 100px;
+        margin: auto;
+    }
+    #sobremi .contenedor-foto img {
+        padding: 8px;
+    }
+    #sobremi .sobremi .titulo-seccion {
+        text-align: center;
+    }
+    #sobremi .sobremi h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+       /* seccion HABLIDADES MI */
+    .contenedor-skills {
+        padding: 50px 20px;
+    }
